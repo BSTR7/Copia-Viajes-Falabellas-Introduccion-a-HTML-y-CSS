@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Descuentos en productos APP | Viajes Falabella</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img id="L" src="https://media.staticontent.com/media/documents/2903f969-1285-4724-bea1-22ceac542fc6" alt="Logo"></a>
+        </div>
+        <ul class="container">
+            <li id="venta">
+                <a href="#"><img id="Iv" src="imagenes/callcenter.png" alt="Llamar para ventas"> Para ventas <strong class="phone">600 570 0035</strong></a>
+            </li>
+            <li class="separador"><a href="#">|</a></li>
+            <li class="menu">
+                <a id="log" href="#"><img id="Il" src="imagenes/avatar.png" width="20" alt="Iniciar sesión"> Iniciar Sesión</a>
+            </li>
+            <li id="misviajes">
+                <a href="#"><img id="Im" src="imagenes/maleta.png" width="20" alt="Mis viajes">Mis Viajes</a>
+            </li>
+            <li id="ayud">
+                <a href="#"><img id="Ia" src="imagenes/ayuda.png" width="20" alt="Ayuda">Ayuda</a>
+            </li>
+        </ul>
+    </header>
+    <nav>
+        <div class="contain">
+            <ul class="containmenu">
+                <li id="alojo"><a id="alojo_ancla" href="/pages/Alojamiento.html"><img id="aloj" class="icon" src="menu/cama1.png" width="20" alt="Alojamientos">Alojamientos</a></li>
+                <li id="pack"><a id="inciotext" href="#"><img class="icon" id="inicio" src="menu/maleta2.png" width="25" alt="Paquetes">Paquetes</a></li>
+                <li id="vue"><a href="/pages/Vuelo.html"><img class="icon" src="menu/avion1.png" width="20" alt="Vuelos">Vuelos</a></li>
+                <li id="act"><a href="/pages/Actividad.html"><img class="icon" src="menu/act1.png" width="20" alt="Actividad">Actividad</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <ul>
+                <li><img src="flyers/24cuotas.webp" alt="Oferta 24 cuotas"></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <article>
+            <div class="containform">
+                <h1 id="containformtitulo">Paquetes Turísticos</h1>
+                <div class="combo-box-viajes">
+                    <div class="combo-box-origen">
+                        <label class="lbl" for="pais-origen">ORIGEN</label>
+                        <br>
+                        <img src="/imagenes/circulo.png" width="15" alt="Icono origen">
+                        <input type="text" id="pais-origen" name="pais-origen" list="opciones-paises-origen" placeholder="Ingresa desde dónde viajas">
+                        <datalist id="opciones-paises-origen">
+                            <option value="Aeropuerto Internacional Arturo Merino Benítez, Chile">
+                            <option value="Aeropuerto Jorge Newbery, Argentina">
+                            <option value="Aeropuerto Internacional de Guarulhos, Brasil">
+                            <option value="Aeropuerto Internacional El Dorado, Colombia">
+                            <option value="Aeropuerto Internacional Mariscal Sucre, Ecuador">
+                            <option value="Aeropuerto Internacional de la Ciudad de México, México">
+                            <option value="Aeropuerto Internacional Jorge Chávez, Perú">
+                            <option value="Aeropuerto Internacional de Carrasco, Uruguay">
+                        </datalist>
+                    </div>
+                    <div class="combo-box-destino">
+                        <label class="lbl" for="pais-destino">DESTINO</label>
+                        <br>
+                        <img src="/imagenes/ubi.png" width="15" alt="Icono destino">
+                        <input type="text" id="pais-destino" name="pais-destino" list="opciones-paises-destino" placeholder="Ingresa dónde quieres viajar">
+                        <datalist id="opciones-paises-destino">
+                            <option value="Aeropuerto Internacional Arturo Merino Benítez, Chile">
+                            <option value="Aeropuerto Jorge Newbery, Argentina">
+                            <option value="Aeropuerto Internacional de Guarulhos, Brasil">
+                            <option value="Aeropuerto Internacional El Dorado, Colombia">
+                            <option value="Aeropuerto Internacional Mariscal Sucre, Ecuador">
+                            <option value="Aeropuerto Internacional de la Ciudad de México, México">
+                            <option value="Aeropuerto Internacional Jorge Chávez, Perú">
+                            <option value="Aeropuerto Internacional de Carrasco, Uruguay">
+                        </datalist>
+                    </div>
+                    <div class="calendario">
+                        <div class="ida">
+                            <label for="fecha-ida">Fecha de ida:</label>
+                            <br>
+                            <input type="date" id="fecha-ida" name="fecha-ida">
+                        </div>
+                        <div class="vuelta">
+                            <br>
+                            <label for="fecha-vuelta">Fecha de vuelta:</label>
+                            <br>
+                            <input type="date" id="fecha-vuelta" name="fecha-vuelta">
+                        </div>
+                    </div>
+                    <div class="buscar">
+                        <a href="/pages/404.html"><img src="imagenes/lupa.png" width="20" alt="Buscar">Buscar</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="pub">
+                <a href="#"><img src="flyers/paquete_chile.webp" alt="Paquete Chile"></a>
+            </div>
+            <div class="promociones">
+                <img id="headr" src="/flyers2/a2e4f3c1-9053-4c0b-8409-453ef4afba2d.webp" alt="Promoción 1">
+                <img src="flyers2/e006153a-8be5-4b1e-bcdd-0832c19b1ce5.webp" alt="Promoción 2">
+                <img src="flyers2/ae51d9f3-709f-4970-831c-0e712fe39cde.webp" alt="Promoción 3">
+            </div>
+        </article>
+    </main>
+</body>
+</html>
