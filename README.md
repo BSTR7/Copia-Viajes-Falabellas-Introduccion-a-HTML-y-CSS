@@ -15,8 +15,3 @@ Puedes ver las imágenes de las secciones de la página que se han implementado 
 ## 💻 Tecnologías Utilizadas
 - **HTML**: Estructura de la página.
 - **CSS**: Estilo y diseño de la página.
-
-## 🚀 Cómo Ejecutar el Proyecto
-1. **Clonar el Repositorio**:
-   ```bash
-   git clone [URL_DEL_REPOSITORIO]
