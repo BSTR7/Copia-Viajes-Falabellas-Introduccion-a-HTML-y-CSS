@@ -7,10 +7,10 @@ Este proyecto es una copia de la página de Viajes Falabella, creada con HTML y 
 Puedes ver las imágenes de las secciones de la página que se han implementado a continuación:
 
 ### Alojamiento
-<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/gkwtzw8N/ALOJAMIENTOS.png" alt="ALOJAMIENTOS"/></a><br/><br/>
+<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/gkwtzw8N/ALOJAMIENTOS.png" alt="ALOJAMIENTOS"/></a><br/><br/>](https://i.postimg.cc/gkwtzw8N/ALOJAMIENTOS.png)
 
 ### Vuelos
-<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/HsfZVptH/VUELOS.png" alt="VUELOS"/></a><br/><br/>
+<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/HsfZVptH/VUELOS.png" alt="VUELOS"/></a><br/><br/>](https://i.postimg.cc/HsfZVptH/VUELOS.png)
 
 ## 💻 Tecnologías Utilizadas
 - **HTML**: Estructura de la página.
